@@ -5,7 +5,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 from selenium.webdriver.support.wait import WebDriverWait
 
-#Make Sure After the Browser wait few Second you need to Hit The First Like then the script will do the rest
+""" Note: if you wannna use ur personl info on your own Choice make sure u provide the exact details so the app can work """
+"""Make Sure After the Browser opens up wait few Seconds then Hit The First Like the script will do the rest :)"""
 driver = webdriver.Chrome('')#Add you chrome driver Path here
 driver.get('https://tinder.com/app/recs')
 driver.implicitly_wait(20)
